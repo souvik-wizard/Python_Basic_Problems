@@ -14,8 +14,8 @@ if( leng1 == leng2):
     sorting2=sorted(string2)
 
     if sorting1 == sorting2:
-        print("Are anagram")
+        print("They are anagram")
     else:
-        print("Are not anagram")
+        print("They are not anagram")
 else:
     print("Not matching")
