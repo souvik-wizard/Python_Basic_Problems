@@ -4,8 +4,8 @@ def checking(num):
     sum = 0
     temp = num
 
-    res = [int(x) for x in str(num)]
-    length = len(res)
+    array = [int(x) for x in str(num)]
+    length = len(array)
 
     while temp > 0:
         digit = temp % 10
@@ -17,7 +17,7 @@ def checking(num):
         print("And the cube root of each numbers are given below :")
         a=[]
         for i in range(length):
-             a.append(res[i]**length)
+             a.append(array[i]**length)
         return a
     else:
         return num, 'is not an Armstrong number'
