@@ -55,7 +55,7 @@ def prime(n):
 	return prime_list
 
 # Driver program
-n=4999799
+n=10000
 lst = prime(n)
 if len(lst) == 0:
 	print("There are no prime numbers in this range")
